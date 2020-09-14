@@ -1,0 +1,30 @@
+{
+    "name": "lisanias/didake",
+    "description": "Programa para administrar a Escola de Ministérios Didake",
+    "minimum-stability": "stable",
+    "license": "private",
+    "authors": [
+      {
+        "name": "Lisanias Vieira Loback",
+        "email": "lisanias@webig.pro.br"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/config.php",
+        "source/helpers.php"
+      ]
+    },
+    "require": {
+        "php": "^7.3",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "coffeecode/router": "1.0.*",
+        "coffeecode/datalayer": "1.*",
+        "phpmailer/phpmailer": "~6.1",
+        "league/plates": "v4.0.0-alpha"
+    }
+  }
